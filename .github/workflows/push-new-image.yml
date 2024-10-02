@@ -28,6 +28,6 @@ jobs:
         with:
           context: "{{defaultContext}}:${{ env.version_short }}"
           push: true
-          tags: newrelic/php-daemon:latest,newrelic/php-daemon:${{ env.version_short }} 
+          tags: bduranleau832/php-daemon:latest,bduranleau832/php-daemon:${{ env.version_short }} 
           with:
             platforms: linux/amd64,linux/arm64
