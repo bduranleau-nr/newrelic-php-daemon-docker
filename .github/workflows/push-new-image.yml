@@ -29,5 +29,4 @@ jobs:
           context: "{{defaultContext}}:${{ env.version_short }}"
           push: true
           tags: bduranleau832/php-daemon:latest,bduranleau832/php-daemon:${{ env.version_short }} 
-          with:
-            platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64,linux/arm64
